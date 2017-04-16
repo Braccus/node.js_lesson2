@@ -18,7 +18,6 @@ function headsOrTails() {
 
     //Просим игрока сделать выбор и выводим его в консоль
     rl.question("Орел или решка? ", function (answer) {
-
         if (answer == 0) {
             console.log("Ваш выбор: решка");
         } else if (answer == 1) {
