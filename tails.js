@@ -8,7 +8,7 @@ headsOrTails();
 let wins = 0; // Количество выигрышей
 
 function headsOrTails() {
-    let readline = require('readline');
+    let readline = require("readline");
     let rl = readline.createInterface({
         input: process.stdin, // Ввод из стандартного потока
         output: process.stdout // Вывод в стандартный поток
